@@ -5,11 +5,11 @@ Small C based DFF model loader for GTA (RenderWare) Files (inspired by syoyo tin
 
 What it does?
 
-· Loads RenderWare DFF (GTA III, VC, SA) model files
-· Extracts geometry data (vertices, normals, UVs, faces)
-· Reads materials and textures
-· Supports bone/skin data for character models
-· Supports binmesh (optimized mesh format)
+ · Loads RenderWare DFF (GTA III, VC, SA) model files
+ · Extracts geometry data (vertices, normals, UVs, faces)
+ · Reads materials and textures
+ · Supports bone/skin data for character models
+ · Supports binmesh (optimized mesh format)
 
 Requirements
 
