@@ -39,12 +39,12 @@ How to load a DFF
 
 Create a context with callbacks for:
 
-· error reporting
-· alloc
-· free
-· read
-· seek
-· tell
+- Error reporting
+- Alloc
+- Free
+- Read
+- Seek
+- Tell
 
 Then call TinyDFF_Read_Read() to parse the file.
 
