@@ -1,7 +1,6 @@
-```markdown
 Tiny_DFF_Read
 
-Small C based DFF model loader for GTA (RenderWare) Files(inspired by syoyo tiny libraries)
+Small C based DFF model loader for GTA (RenderWare) Files (inspired by syoyo tiny libraries)
 
 What it does?
 
@@ -17,18 +16,18 @@ None except a C compiler.
 
 Uses these stdlib headers:
 
-| Header | Purpose |
-|--------|---------|
-| stdint.h | for uint32_t, int64_t etc. |
-| stdbool.h | for bool |
-| stddef.h | for size_t |
-| string.h | for memcpy |
-| stdlib.h | for malloc/free (only in implementation) |
+| Header    | Purpose                                    |
+|-----------|--------------------------------------------|
+| stdint.h  | for uint32_t, int64_t etc.                 |
+| stdbool.h | for bool                                   |
+| stddef.h  | for size_t                                 |
+| string.h  | for memcpy                                 |
+| stdlib.h  | for malloc/free (only in implementation)   |
 
 How to build
 
-1. Include tiny_dff_read.h in your project
-2. In one C file define TINYDFF_READ_IMPLEMENTATION before including the header:
+1. Include `tiny_dff_read.h` in your project
+2. In one C file define `TINYDFF_READ_IMPLEMENTATION` before including the header:
 
 ```c
 #define TINYDFF_READ_IMPLEMENTATION
@@ -201,4 +200,3 @@ Bin Mesh:
 | TinyDFF_Read_GetBinMeshSplit() | Split Data |
 
 ---
-```
