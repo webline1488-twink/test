@@ -1,3 +1,4 @@
+```markdown
 Tiny_DFF_Read
 
 Small C based DFF model loader for GTA (RenderWare) Files(inspired by syoyo tiny libraries)
@@ -16,12 +17,13 @@ None except a C compiler.
 
 Uses these stdlib headers:
 
-Header Purpose
-stdint.h for uint32_t, int64_t etc.
-stdbool.h for bool
-stddef.h for size_t
-string.h for memcpy
-stdlib.h for malloc/free (only in implementation)
+| Header | Purpose |
+|--------|---------|
+| stdint.h | for uint32_t, int64_t etc. |
+| stdbool.h | for bool |
+| stddef.h | for size_t |
+| string.h | for memcpy |
+| stdlib.h | for malloc/free (only in implementation) |
 
 How to build
 
@@ -138,57 +140,65 @@ API Functions:
 
 Context management:
 
-Function Description
-TinyDFF_Read_CreateContext() Create Parser Context
-TinyDFF_Read_DestroyContext() Destroy Context
-TinyDFF_Read_Reset() Reset Context
-TinyDFF_Read_Read() Parse DFF Data
+| Function | Description |
+|----------|-------------|
+| TinyDFF_Read_CreateContext() | Create Parser Context |
+| TinyDFF_Read_DestroyContext() | Destroy Context |
+| TinyDFF_Read_Reset() | Reset Context |
+| TinyDFF_Read_Read() | Parse DFF Data |
 
 Query counts:
 
-Function Description
-TinyDFF_Read_GetVersion() RW Version
-TinyDFF_Read_GetAtomicCount() Number of Atomics
-TinyDFF_Read_GetGeometryCount() Number of Geometries
-TinyDFF_Read_GetFrameCount() Number of Frames
+| Function | Description |
+|----------|-------------|
+| TinyDFF_Read_GetVersion() | RW Version |
+| TinyDFF_Read_GetAtomicCount() | Number of Atomics |
+| TinyDFF_Read_GetGeometryCount() | Number of Geometries |
+| TinyDFF_Read_GetFrameCount() | Number of Frames |
 
 Geometry data:
 
-Function Description
-TinyDFF_Read_GetGeometryInfo() Geometry Info
-TinyDFF_Read_GetVertices() Vertex Positions
-TinyDFF_Read_GetNormals() Normals
-TinyDFF_Read_GetUVs() Texture Coordinates
-TinyDFF_Read_GetVertexColors() Vertex Colors
-TinyDFF_Read_GetFaces() Triangle Faces
+| Function | Description |
+|----------|-------------|
+| TinyDFF_Read_GetGeometryInfo() | Geometry Info |
+| TinyDFF_Read_GetVertices() | Vertex Positions |
+| TinyDFF_Read_GetNormals() | Normals |
+| TinyDFF_Read_GetUVs() | Texture Coordinates |
+| TinyDFF_Read_GetVertexColors() | Vertex Colors |
+| TinyDFF_Read_GetFaces() | Triangle Faces |
 
 Materials:
 
-Function Description
-TinyDFF_Read_GetMaterialCount() Material Count
-TinyDFF_Read_GetMaterial() Material by Index
-TinyDFF_Read_GetMaterialName() Texture Name
-TinyDFF_Read_GetMaterialColor() Material Color
+| Function | Description |
+|----------|-------------|
+| TinyDFF_Read_GetMaterialCount() | Material Count |
+| TinyDFF_Read_GetMaterial() | Material by Index |
+| TinyDFF_Read_GetMaterialName() | Texture Name |
+| TinyDFF_Read_GetMaterialColor() | Material Color |
 
 Bones/Skin:
 
-Function Description
-TinyDFF_Read_HasSkin() Check if has Skin Data
-TinyDFF_Read_GetBoneCount() Bone Count
-TinyDFF_Read_GetBoneIndices() Bone Indices Per Vertex
-TinyDFF_Read_GetBoneWeights() Bone Weights Per Vertex
+| Function | Description |
+|----------|-------------|
+| TinyDFF_Read_HasSkin() | Check if has Skin Data |
+| TinyDFF_Read_GetBoneCount() | Bone Count |
+| TinyDFF_Read_GetBoneIndices() | Bone Indices Per Vertex |
+| TinyDFF_Read_GetBoneWeights() | Bone Weights Per Vertex |
 
 Frames:
 
-Function Description
-TinyDFF_Read_GetFrameMatrix() Frame Transform
-TinyDFF_Read_GetFrameName() Frame Name
-TinyDFF_Read_GetFrameParent() Parent Frame Index
+| Function | Description |
+|----------|-------------|
+| TinyDFF_Read_GetFrameMatrix() | Frame Transform |
+| TinyDFF_Read_GetFrameName() | Frame Name |
+| TinyDFF_Read_GetFrameParent() | Parent Frame Index |
 
 Bin Mesh:
 
-Function Description
-TinyDFF_Read_GetBinMeshInfo() Bin Mesh Info
-TinyDFF_Read_GetBinMeshSplit() Split Data
+| Function | Description |
+|----------|-------------|
+| TinyDFF_Read_GetBinMeshInfo() | Bin Mesh Info |
+| TinyDFF_Read_GetBinMeshSplit() | Split Data |
 
 ---
+```
